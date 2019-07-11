@@ -1,0 +1,7 @@
+---
+- name: upload comp527.live to s3 
+  hosts: localhost
+  remote_user: root 
+  roles:
+    - { role: deploy-comp527-s3, tags: ['deploy-live-s3'] } 
+

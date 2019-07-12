@@ -1,7 +1,7 @@
 ## COMPX527 Assignment
 
 ### Requirements
-* Apply to join the [AWS Educate](https://aws.amazon.com/education/awseducate/) to get free AWS credit.
+* Apply to join [AWS Educate](https://aws.amazon.com/education/awseducate/) to get free AWS credit.
 
 
 ### Objectives
@@ -43,7 +43,7 @@ source COMP527-ASSGMNT1/bin/activate
 ```
 * Follow these [instructions](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) to generate AWS credentiails
 
-* COnfigure AWS CLI with your AWS credentials to interact with AWS services via the command line.
+* Configure AWS CLI with your AWS credentials to interact with AWS services via the command line.
 ```
 (COMP527-ASSGMNT1) root@ubuntu:~# aws configure 
   AWS Access Key ID [None]: **********************
@@ -64,8 +64,10 @@ pip install botocore
 ```
 * An example: ansible-playbook to deploy a simple website on s3. (remember to change your bucket name in the ansible playbook)
 ```
-git clone ansible-s3
-cd ansible-s3
+## Remember to change the bucket name and blog_root_dir in
+## ansible-s3/roles/deploy-comp527-s3/defaults/main.yml to your own.
+git clone git@github.com:olafayomi/COMPx527.git
+cd COMPx527/ansible-s3
 ansible-playbook main.yml --tags deploy-live-s3 
 ```
 * Your website should be live at: http://your-bucket-name.live.s3-website-ap-southeast-2.amazonaws.com/index.html)

@@ -1,17 +1,11 @@
 ## COMPX527 Assignment
 
-### Requirements
-* Apply to join [AWS Educate](https://aws.amazon.com/education/awseducate/) to get free AWS credit.
-
-
 ### Objectives
-* You are required to compose a cloud-based solution using AWS services.
-* You will perform a live demo and presentation of your solution.
-* The goal of this assignment is to give hands-on experience of using cloud services and how to design and deploy cloud-native applications. In order to achieve this objective, your cloud-based solution will be assessed based on these criteria:
-  * Deployment: How will your solution be deployed on AWS or cloud service provider of choice ?
-  * Automation: Is the deployment process automated or manual ?
-  * Reproduciblity: Can your solution be easily replicated or deployed elsewhere or by someone else ?
-  * Scalability: Has consideration been given to how to scale up or scale down your solution to meet increasing demand ?
+The goal of this assignment is to give hands-on experience of using cloud services and how to design and deploy cloud-native applications. In order to achieve this objective, your cloud-based solution will be assessed based on these criteria:
+* Deployment: How will your solution be deployed on AWS or cloud service provider of choice ?
+* Automation: Is the deployment process automated or manual ?
+* Reproduciblity: Can your solution be easily replicated or deployed elsewhere or by someone else ?
+* Scalability: Has consideration been given to how to scale up or scale down your solution to meet increasing demand ?
   
 You are expected to use tools like [ansible](https://www.ansible.com/resources/get-started),[terraform](https://www.terraform.io/) and [AWS CloudFormation](https://aws.amazon.com/cloudformation/) to achieve these objectives. This will require that you get comfortable with the [AWS CLI](https://aws.amazon.com/cli/). See instructions below on installing AWS CLI and ansible to give you an idea of how to proceed with your assignment.
 

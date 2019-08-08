@@ -1,4 +1,5 @@
 ---
+# ansible-playbook main.yml --tags deploy-live-s3
 - name: upload comp527.live to s3 
   hosts: localhost
   remote_user: root 

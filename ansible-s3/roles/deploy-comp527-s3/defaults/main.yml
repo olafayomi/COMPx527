@@ -1,4 +1,4 @@
 ---
 # Change these to suit your environment
-blog_root_dir: /home/ubuntu/comp527.live
-bucket_name: comp527-oof1-blog.live
+blog_root_dir: /home/oladimeji/git_clones/COMPx527/comp527.live
+bucket_name: comp527-oof1-blog-test.live

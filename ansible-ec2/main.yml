@@ -1,0 +1,6 @@
+---
+# ansible-playbook -v -i inventories/hosts  main.yml --tags provision
+- name: Provision AWS EC2 Instance
+  hosts: localhost
+  roles:
+    - { role: provision-instance, tags: ['provision'] }

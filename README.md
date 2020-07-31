@@ -42,7 +42,7 @@ source COMP527-ASSGMNT1/bin/activate
 (COMP527-ASSGMNT1) root@ubuntu:~# aws configure 
   AWS Access Key ID [None]: **********************
   AWS Secret Access Key [None]: ************************************** 
-  Default region name [None]: ap-southeast-2 
+  Default region name [None]: us-east-1
   Default output format [None]: json
 ```
 * Confirm your credentials work by creating and deleting test AWS s3 buckets for example
@@ -64,7 +64,7 @@ git clone git@github.com:olafayomi/COMPx527.git
 cd COMPx527/ansible-s3
 ansible-playbook main.yml --tags deploy-live-s3 
 ```
-* Your website should be live at: http://your-bucket-name.live.s3-website-ap-southeast-2.amazonaws.com/index.html)
+* Your website should be live at: http://your-bucket-name.live.s3-website-us-east-1.amazonaws.com/index.html)
 
 *credits:
  http://deploy.live/blog/aws-s3-hosted-blog-using-jekyll-and-ansible/

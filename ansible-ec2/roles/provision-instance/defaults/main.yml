@@ -3,6 +3,6 @@ ec2_private_key_dir: "/home/oladimeji/.ssh/oof1-ec2-key.pem"
 region: us-east-1
 instance_type: t2.micro
 security_group: webservers_sg
-subnet_id: subnet-032c4a3d
+subnet_id: subnet-01f85820
 image: ami-07d0cf3af28718ef8
 

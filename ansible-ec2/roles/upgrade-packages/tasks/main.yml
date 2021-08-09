@@ -1,0 +1,11 @@
+---
+
+- name: Upgrade packages
+  when: managing_ubuntu
+  include_tasks:
+    file: ubuntu.yml
+    apply:
+      tags:
+        - patch
+  tags:
+    - patch

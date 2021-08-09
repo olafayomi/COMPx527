@@ -24,10 +24,10 @@
     suffix: index.html
     region: us-east-1
 
-#- name: Create other buckets
-#  aws_s3:
-#    bucket: "{{ item }}"
-#    mode: create
-#    permission: public-read
-#  with_items:
-#    - "{{ other_buckets }}"
+- name: Create other buckets
+  aws_s3:
+    bucket: "{{ item }}"
+    mode: create
+    permission: public-read
+  with_items:
+    - "{{ other_buckets }}"

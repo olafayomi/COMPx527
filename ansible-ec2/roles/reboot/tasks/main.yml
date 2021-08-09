@@ -1,0 +1,12 @@
+---
+
+- name: Reboot host
+  include_tasks:
+    file: reboot.yml
+    apply:
+      tags:
+        - patch
+        - reboot
+  tags:
+    - patch
+    - reboot

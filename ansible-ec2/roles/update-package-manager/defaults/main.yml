@@ -1,10 +1,7 @@
+---
+managing_ubuntu: "{{ (ansible_distribution == 'Ubuntu') | bool }}"
 ec2_key_name: "oof1-ec2-key"
 ec2_private_key_dir: "/home/ubuntu/.ssh/oof1-ec2-key.pem"
 ec2key_secondary: "oof1-ec2-key-secondary"
 ec2key_priv_secondary_dir: "/home/ubuntu/.ssh/oof1-ec2-key-secondary.pem"
-region: us-east-1
-instance_type: t2.micro
-security_group: "webservers_sg"
-subnet_id: subnet-a0cf3fae
-image: ami-07d0cf3af28718ef8
 

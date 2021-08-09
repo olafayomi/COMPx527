@@ -1,0 +1,10 @@
+---
+
+- name: Update apt on Ubuntu
+  include_tasks:
+    file: Ubuntu.yml
+    apply:
+      tags:
+        - update-package-manager
+  tags:
+    - update-package-manager

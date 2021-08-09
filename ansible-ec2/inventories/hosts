@@ -1,3 +1,5 @@
 [local]
-localhost ansible_connection=local ansible_python_interpreter=/home/oladimeji/compx527/bin/python
+localhost ansible_connection=local ansible_python_interpreter=/home/ubuntu/compx527/bin/python
 
+[webservers]
+#34.204.174.89  ansible_ssh_private_key_file=/home/ubuntu/.ssh/oof1-ec2-key.pem

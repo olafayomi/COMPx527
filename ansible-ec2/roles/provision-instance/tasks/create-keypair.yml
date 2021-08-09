@@ -1,0 +1,13 @@
+---
+
+- name: Create EC2 keypair
+  ec2_key:
+      name: "{{ ec2key_secondary }}"
+      region: "{{ region }}"
+  register: ec2_key_result 
+
+- name: Save private key 
+  copy: content="{{ ec2_key_result.key.private_key }}" dest="{{ ec2key_priv_secondary_dir }}" mode=0600
+  when: ec2_key_result.changed
+
+

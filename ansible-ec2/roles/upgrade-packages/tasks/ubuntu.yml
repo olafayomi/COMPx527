@@ -1,0 +1,10 @@
+---
+
+- name: apt upgrade pacakges
+  apt:
+    upgrade: safe
+    update_cache: yes
+    force_apt_get: yes
+    force: yes
+    cache_valid_time: 3600
+  

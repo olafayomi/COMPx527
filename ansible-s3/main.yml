@@ -4,5 +4,5 @@
   hosts: localhost
   remote_user: root 
   roles:
-    - { role: deploy-comp527-s3, tags: ['deploy-live-s3'] } 
+    - { role: deploy-comp527-s3 } 
 

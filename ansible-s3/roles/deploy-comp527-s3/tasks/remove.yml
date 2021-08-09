@@ -1,0 +1,13 @@
+---
+
+- name: Delete static website s3 bucket
+  aws_s3:
+    bucket: "{{ bucket_name }}"
+    mode: delete
+
+#- name: Delete other S3 buckets
+#  aws_s3:
+#    bucket: "{{ item }}"
+#    mode: delete
+#  with_items:
+#    - "{{ other_buckets }}"
